@@ -1,7 +1,9 @@
+<!--Laad Master Elements-->
 @extends('master')
 @section('title', 'HBM Taaklijst')
 @section('content')
 
+<!--Form voor de takenlijst-->
 <div>
 <h1>Taken Lijst</h1>
 
@@ -15,6 +17,7 @@
 </form>
 </div>
 
+<!--Lijst met taken-->
 @foreach ($TakenLijst as $TaakLijst)
 <div>
     <p>Taak:</p>
