@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="{{ URL::asset('assets/css/master.css') }}">
 </head>
 <body>
+<!--Navigatie-->
   @section('nav')
     <nav class="nav">
       <ul class="nav_list">
